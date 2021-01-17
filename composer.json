@@ -1,0 +1,20 @@
+{
+	"name":"mk2/ui_html",
+	"description": "Next PHP Framework 'mark2' HtmlUI packeage.",
+	"type": "library",
+	"license": "MIT",
+	"homepage":"https://www.mk2-php.com/",
+	"authors": [{
+		"name": "Nakajima Satoru"
+	}],
+	"keywords": ["PHP","php","Framework","framework","mark2","Web","UI","Html"],
+	"require": {
+		"php": ">=5.4.0",
+		"mk2/libraries":"dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"mk2\\ui_html\\":"src/"
+		}
+	}
+}
