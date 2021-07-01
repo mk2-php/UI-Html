@@ -1,5 +1,20 @@
 <?php
 
+/**
+ * ===================================================
+ * 
+ * PHP Framework "Mk2"
+ *
+ * HtmlUI
+ * 
+ * URL : https://www.mk2-php.com/
+ * 
+ * Copylight : Nakajima-Satoru 2021.
+ *           : Sakaguchiya Co. Ltd. (https://www.teastalk.jp/)
+ * 
+ * ===================================================
+ */
+
 namespace mk2\ui_html;
 
 use Mk2\Libraries\UI;
@@ -153,6 +168,10 @@ class HtmlUI extends UI{
 		return $str;
 	}
 
+	/**
+	 * _optionString
+	 * @param $option
+	 */
 	private function _optionString($option){
 
 		$optStr="";
